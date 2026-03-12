@@ -3,39 +3,35 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen)
 
-A simple **open-source Python video downloader** that allows you to download videos and convert them into **MP3 (audio)** or **MP4 (video)** using a command line interface.
-
-This project is lightweight, easy to use, and great for beginners learning Python or CLI tools.
+A simple **open-source Python video downloader** that allows you to download videos and convert them to **MP3 (audio)** or **MP4 (video)**.
 
 ---
 
-# ✨ Features
+# 🇬🇧 English
 
-- 📥 Download videos using a URL
-- 🎵 Convert videos to **MP3**
-- 🎬 Download videos as **MP4**
-- ⚡ Simple command line interface
-- 🧩 Lightweight Python script
-- 🌍 Cross-platform (Windows / Linux / macOS)
+## ✨ Features
+
+- 📥 Download videos using a URL  
+- 🎵 Convert videos to **MP3**  
+- 🎬 Download videos as **MP4**  
+- ⚡ Simple command line interface  
+- 🌍 Works on Windows, Linux and macOS  
 
 ---
 
-# 📦 Requirements
+## 📦 Requirements
 
 - Python **3.8 or newer**
 - Internet connection
 
 ---
 
-# 🐍 Installing Python (Windows)
+## 🐍 Installing Python (Windows)
 
-If you don't have Python installed, follow these steps.
+### 1. Download Python
 
-## 1. Download Python
-
-Go to the official website:
+Go to:
 
 https://www.python.org/downloads/
 
@@ -43,11 +39,9 @@ Download the **latest Python 3 version**.
 
 ---
 
-## 2. Run the Installer
+### 2. Run the installer
 
-Open the installer and **IMPORTANT**:
-
-✔ Enable the option:
+During installation **make sure to enable**:
 
 ```
 Add Python to PATH
@@ -59,13 +53,11 @@ Then click:
 Install Now
 ```
 
-Wait until the installation finishes.
-
 ---
 
-## 3. Verify Installation
+### 3. Verify installation
 
-Open **Command Prompt (CMD)** and run:
+Open **Command Prompt** and run:
 
 ```
 python --version
@@ -77,11 +69,9 @@ You should see something like:
 Python 3.x.x
 ```
 
-If you see a version number, Python is installed correctly.
-
 ---
 
-# 📥 Download the Project
+## 📥 Download the Project
 
 Clone the repository:
 
@@ -91,7 +81,7 @@ git clone https://github.com/yourname/video-downloader.git
 
 Or download the **ZIP file** and extract it.
 
-Navigate to the project folder:
+Navigate to the folder:
 
 ```
 cd video-downloader
@@ -99,9 +89,7 @@ cd video-downloader
 
 ---
 
-# 🚀 Usage
-
-Run the script with Python:
+## 🚀 Usage
 
 ```
 python video.py -u <URL> -f <mp3/mp4>
@@ -109,7 +97,7 @@ python video.py -u <URL> -f <mp3/mp4>
 
 ---
 
-# ⚙ Parameters
+## ⚙ Parameters
 
 | Parameter | Description |
 |----------|-------------|
@@ -118,15 +106,15 @@ python video.py -u <URL> -f <mp3/mp4>
 
 ---
 
-# 🧪 Examples
+## 🧪 Examples
 
-## Download video as MP4
+Download video as MP4:
 
 ```
 python video.py -u https://example.com/video -f mp4
 ```
 
-## Download audio as MP3
+Download audio as MP3:
 
 ```
 python video.py -u https://example.com/video -f mp3
@@ -134,40 +122,126 @@ python video.py -u https://example.com/video -f mp3
 
 ---
 
-# 📁 Example Workflow
+# 🇨🇿 Česká verze
 
-1. Install Python
-2. Download this repository
-3. Open terminal / command prompt
-4. Navigate to the project folder
-5. Run the command
-
-Example:
-
-```
-python video.py -u https://youtube.com/example -f mp3
-```
-
-The file will be downloaded into the current folder.
+Jednoduchý **open-source Python program pro stahování videí**, který umožňuje stáhnout video a převést ho do **MP3 (audio)** nebo **MP4 (video)**.
 
 ---
 
-# 🤝 Contributing
+## ✨ Funkce
 
-Pull requests are welcome.
+- 📥 Stažení videa pomocí URL  
+- 🎵 Převod videa do **MP3**  
+- 🎬 Stažení videa jako **MP4**  
+- ⚡ Jednoduché použití v příkazové řádce  
+- 🌍 Funguje na Windows, Linuxu i macOS  
 
-If you find a bug or want to improve the project, feel free to open an issue.
+---
+
+## 📦 Požadavky
+
+- Python **3.8 nebo novější**
+- Připojení k internetu
+
+---
+
+## 🐍 Instalace Pythonu (Windows)
+
+### 1. Stažení Pythonu
+
+Přejdi na stránku:
+
+https://www.python.org/downloads/
+
+Stáhni **nejnovější verzi Python 3**.
+
+---
+
+### 2. Instalace
+
+Při instalaci **zaškrtni**:
+
+```
+Add Python to PATH
+```
+
+Poté klikni na:
+
+```
+Install Now
+```
+
+---
+
+### 3. Ověření instalace
+
+Otevři **Příkazový řádek (CMD)** a napiš:
+
+```
+python --version
+```
+
+Pokud se zobrazí například:
+
+```
+Python 3.x.x
+```
+
+Python je správně nainstalovaný.
+
+---
+
+## 📥 Stažení projektu
+
+Naklonuj repozitář:
+
+```
+git clone https://github.com/yourname/video-downloader.git
+```
+
+Nebo stáhni **ZIP soubor**.
+
+Přejdi do složky projektu:
+
+```
+cd video-downloader
+```
+
+---
+
+## 🚀 Použití
+
+```
+python video.py -u <URL> -f <mp3/mp4>
+```
+
+---
+
+## ⚙ Parametry
+
+| Parametr | Popis |
+|---------|------|
+| `-u` | URL videa |
+| `-f` | Výstupní formát (`mp3` nebo `mp4`) |
+
+---
+
+## 🧪 Příklady
+
+Stažení videa jako MP4:
+
+```
+python video.py -u https://example.com/video -f mp4
+```
+
+Stažení audia jako MP3:
+
+```
+python video.py -u https://example.com/video -f mp3
+```
 
 ---
 
 # 📜 License
 
 This project is licensed under the **MIT License**.
-
-You are free to use, modify, and distribute this software.
-
----
-
-# ⭐ Support
-
-If you like this project, consider giving it a **star on GitHub** ⭐
